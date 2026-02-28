@@ -1,13 +1,13 @@
-# Elastic-Blogathon 📝 
+# Elastic-Blogathon 📝
 
 This repository contains code examples and practical implementations demonstrating the core concepts of Semantic Search and **RAG (Retrieval-Augmented Generation)** using **Elasticsearch**. 
 
-✨ **Purpose** ✨
+✨ **Purpose** 
 This project was specifically created to accompany my submission for the **Elasticsearch Blogathon** competition. It provides clear, runnable code examples that map directly to the topics discussed in my blog post, helping developers understand how to build reliable AI pipelines.
 
 ---
 
-## 🚀 Repository Contents
+## I) Repository Contents
 
 This repository includes several independent Python scripts, each demonstrating a key component of modern search and retrieval:
 
@@ -27,7 +27,7 @@ A simplified representation of a **Retrieval-Augmented Generation** pipeline. It
 
 ---
 
-## 🛠️ Prerequisites & Setup
+## II) Prerequisites & Setup
 
 To run these examples locally, you will need:
 
@@ -39,7 +39,7 @@ To run these examples locally, you will need:
 pip install elasticsearch scikit-learn sentence-transformers
 ```
 
-## ▶️ Running the Examples
+## III) Running the Examples
 
 Ensure your Elasticsearch instance is up and running. Some scripts (like the RAG pipeline) depend on the indices created by others, so it's recommended to run them in this order to understand the progression:
 
